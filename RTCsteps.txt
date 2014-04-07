@@ -1,0 +1,56 @@
+1) Create an additional WAS profile.
+
+2) From the newly created profile start the application server server1
+
+3) Connect to the WAS administrative console of the profile create in step 1
+
+4) Configure WAS global security for authentication with bluepages
+
+5) Configure the application server to run under a non root ID
+
+6) Setup Virtual Hosts
+
+7) Update the application server JVM arguments
+
+8) Remove the default enterprise applications
+
+9) Edit sas.client props and soap.client.props files
+
+10) Encode the passwords in sas.client props and soap.client.props files
+
+11) Change the ownership recursively on the /profilePath to the non root ID used in step 5.4
+
+12) Restart the application server server1
+
+DB2 Configuration
+
+13) Create necessary IDs and groups for a new DB2 instance
+
+14) Create a DB2 instance
+
+15) Create the DB2 Jazz database
+
+16) Extract the contents of the RTC zip file if not already done. The owner of the files should match the user ID used in step
+5.4
+
+17) Edit the JazzInstallDir/server/conf/jazz/teamserver.properties file
+
+18) Edit the JazzInstallDir/server/repotools.sh script to use an appropriate version of java
+
+19) Edit all profile .ini files in JazzInstallDir/server/conf/jazz/provision_profiles directory to point to the absolute path of the
+appropriate update site directory
+
+20) Create the Jazz Team Server database tables
+
+21) Connect to the WAS administrative console of the profile create in step 1
+
+22) Deploy the Jazz war file
+
+23) Map security roles
+
+24) Start the Jazz enterprise application
+
+25) Jazz Team Server Setup
+
+26) Configure the Jazz ports for the additional instance
+

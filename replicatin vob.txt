@@ -1,0 +1,61 @@
+Manually Replicating a VOB
+
+1.	Login on the ClearCase VOB server which hosts your VOB with your id using the putty utility:
+\\ntfs07.corp.anthem.com\isdshare\UNIX_Login\putty.exe
+
+2.	Login as vobadm.  Be in the vobadm home directory in order to write logs.
+su – vobadm
+
+
+3.	Rename the original replica.
+multitool rename replica:original@/vob/federal_010 federal_010.aix_ric
+
+
+
+4.	Make the replica for other site.
+
+example: multitool mkreplica -export -workdir /vstore/replica -c “inathmr009.corp.anthem.com:federal_010.aix_mw@/vob/federal_010” -fship inathmr009.corp.anthem.com:federal_010.aix_mw@/vob/federal_010 2>&1 | tee mkreplica_federal_010.aix_mw.log
+
+
+5.	Login to replica site with your id using putty and login as vobadm to import replica.
+For backup strategy, this is inathmr009.
+
+
+6.	Go to import directory and set umask.
+cd /vobstorep/shipping/<hostname>/ms_ship/incoming
+umask 022
+
+7.	Get import packet name to import replica.
+ls
+
+8.	Import replica.
+
+example: multitool mkreplica -import -workdir /vstore/replica -tag /vob/federal_010 -host inathmr009.corp.anthem.com -vob /vstore/vobs/federal_010.vbs -hpath /vstore/vobs/federal_010.vbs -gpath /vstore/vobs/federal_010.vbs -npreserve -nc -public -password anthem -vreplica federal_010.aix_mw /vstore/views/shipping/ms_ship/incoming/repl_federal_010.aix_ric_2012-06-25T05.23.38-04.00_22479044_1 2>&1 | tee federal_010.aix_mw.log
+
+When doing the import on one of our NY servers, also add the option –ignoreprot. Example:
+
+
+mt mkrepl -imp -work g:\ms -tag \federal_010 -vob \\Smeccdev01\ccstg_g\VOBs\federal_010.vbs -npres -ignoreprot -nc -public -password anthem repl_federal_010.aix_ric_2012-03-21T09.19.17-04.00_34472156_1
+
+9.	Mount the VOB.
+cleartool mount <vob>
+example: cleartool mount /vob/federal_010
+
+10.	Remove your packet.
+
+rm -f /vstore/views/shipping/ms_ship/incoming/repl_federal_010.aix_ric_2012-06-25T05.23.38-04.00_22479044_1
+
+11.	Add to export script on the exporting server.
+
+example for master site: echo replicas:federal_010.aix_mw@/vob/federal_010 >> /vobstorep/shipping/vaathmr1139/replica_sync_export
+
+
+12.	At master site, change mastership of the replica to itself from master replica server.
+multitool chmaster <new master replica> <replica to transfer>
+example: multitool chmaster -nc replica:federal_010.aix_mw@/vob/federal_010 replica:federal_010.aix_mw@/vob/federal_010 2>&1 | tee chmaster.log
+
+
+ 
+
+
+

@@ -1,0 +1,40 @@
+April
+
+2012	4	Clear Case	2616
+2012	4	Clear Quest	19060
+2012	4	Build Forge	283
+2012	4	Req Pro	6001
+2012	4	Software Modeler	105
+2012	4	Software Architect	280
+2012	4	Application Developer	277
+2012	4	Functional Tester	155
+2012	4	Quality Manager	3285
+
+
+May
+
+
+Year 	Month	Tool Name	Provisioned Licenses 
+2012	4	Clear Case	2578			(2606)
+2012	4	Clear Quest	18417			(19660)
+2012	4	Build Forge	273			(287)
+2012	4	Req Pro	6171				(6277)	
+2012	4	Software Modeler	112		(104)
+2012	4	Software Architect	273		(252)
+2012	4	Application Developer	297		(262)	
+2012	4	Functional Tester	127		(146)
+2012	4	Quality Manager	3129			(3305)
+
+
+June
+
+Year 	Month	Tool Name	Provisioned Licenses 
+2012	4	Clear Case	2613
+2012	4	Clear Quest	20106
+2012	4	Build Forge	322
+2012	4	Req Pro	6470
+2012	4	Software Modeler	102
+2012	4	Software Architect	281
+2012	4	Application Developer	281
+2012	4	Functional Tester	174
+2012	4	Quality Manager	3313

@@ -1,0 +1,39 @@
+cleartool setview vobadm_`hostname`
+
+
+"cd /vobstorep/vobs/decomissioned_vobs 
+mv GUSV1_decommissioned.vbs /vobstorep/vobs/GUSV1.vbs  
+
+Ex: mv UCM_test_src.vbs /vobstorep/vobs/."
+
+
+cat /vobstorep/vobs/GUSV1.vbs/.hostname
+
+login to the server listed under .hostname file
+
+"cd /vobstorep/vobs/vobstorep/vobs/GUSV1.vbs 
+mv .pid .pid_old"
+
+"ps -ef|grep /vob/GUSV1 |grep -v grep
+
+If you find any process kill it using ""kill -9""
+
+kill -9 `ps -ef|grep <vob_name>|grep -v grep|nawk '{print $2}'`"
+
+
+"If VOB is a PVOB:
+
+
+cleartool register -vob -host vaathmr1139.wellpoint.com -hpath /vobstorep/vobs/GUSV1.vbs /vobstorep/vobs/GUSV1.vbs 
+
+
+
+If not a PVOB
+cleartool register -vob -host <new vob server>.wellpoint.com> -hpath /vobstorep/vobs/<vobstore> /vobstorep/vobs/<vobstore>"
+
+cleartool mktag -vob -tag /vob/GUSV1 -public -password anthem -host vaathmr1139.wellpoint.com -gpath /vobstorep/vobs/GUSV1.vbs /vobstorep/vobs/GUSV1.vbs
+cleartool mount -all
+
+cleartool unlock vob:<vobtag>
+
+use vi editor on file /vobstorep/shipping/<vob server>/replica_sync_export to delete the entry
