@@ -1,0 +1,175 @@
+va10puvrcc001
+
+Attempting to forward/deliver generated packets...
+---- NOTE: consult log file (/var/adm/rational/clearcase/log/shipping_server_log) for errors.
+multitool: Error: Store-and-forward server "/opt/rational/clearcase/etc/shipping_server" failed with status 1
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_WLP_Applications.aix_va_2012-02-23T05.05.17-05.00_29098202_1 (see store-and-forward log)
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_WLP_Applications.aix_va_2012-02-23T05.05.17-05.00_29098202_2 (see store-and-forward log)
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_WLP_Applications.aix_va_2012-02-23T05.05.17-05.00_29098202_3 (see store-and-forward log)
+-------------------------------------------------------------------------------------------------------------------------------
+
+Attempting to forward/deliver generated packets...
+---- NOTE: consult log file (/var/adm/rational/clearcase/log/shipping_server_log) for errors.
+multitool: Error: Store-and-forward server "/opt/rational/clearcase/etc/shipping_server" failed with status 1
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_SCMail_TEST.aix_va_2012-02-23T05.12.04-05.00_16056394_1 (see store-and-forward log)
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Attempting to forward/deliver generated packets...
+---- NOTE: consult log file (/var/adm/rational/clearcase/log/shipping_server_log) for errors.
+multitool: Error: Store-and-forward server "/opt/rational/clearcase/etc/shipping_server" failed with status 1
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_MailOrderIT_TEST.aix_va_2012-02-23T05.16.59-05.00_10551474_1 (see store-and-forward log)
+---------------------------------------------------------------------------------------------------------------------------
+
+Attempting to forward/deliver generated packets...
+---- NOTE: consult log file (/var/adm/rational/clearcase/log/shipping_server_log) for errors.
+multitool: Error: Store-and-forward server "/opt/rational/clearcase/etc/shipping_server" failed with status 1
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_wmds.aix_va_2012-02-23T05.47.02-05.00_9502752_1 (see store-and-forward log)
+you have mail in /usr/spool/mail/vobadm
+------------------------------------------------------------------------------------------------------------------------------
+
+Attempting to forward/deliver generated packets...
+---- NOTE: consult log file (/var/adm/rational/clearcase/log/shipping_server_log) for errors.
+multitool: Error: Store-and-forward server "/opt/rational/clearcase/etc/shipping_server" failed with status 1
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_SCRetail_TEST.aix_va_2012-02-23T05.50.50-05.00_36438472_1 (see store-and-forward log)Attempting to forward/deliver generated packets...
+---- NOTE: consult log file (/var/adm/rational/clearcase/log/shipping_server_log) for errors.
+multitool: Error: Store-and-forward server "/opt/rational/clearcase/etc/shipping_server" failed with status 1
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_Filenet_src.aix_ric_2012-02-23T05.52.49-05.00_56557838_1 (see store-and-forward log)
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_Filenet_src.aix_ric_2012-02-23T05.52.49-05.00_56557838_2 (see store-and-forward log)
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_Filenet_src.aix_ric_2012-02-23T05.52.49-05.00_56557838_3 (see store-and-forward log)
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Attempting to forward/deliver generated packets...
+---- NOTE: consult log file (/var/adm/rational/clearcase/log/shipping_server_log) for errors.
+multitool: Error: Store-and-forward server "/opt/rational/clearcase/etc/shipping_server" failed with status 1
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_IAM.aix_va_2012-02-23T05.55.15-05.00_24182840_1 (see store-and-forward log)
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Attempting to forward/deliver generated packets...
+---- NOTE: consult log file (/var/adm/rational/clearcase/log/shipping_server_log) for errors.
+multitool: Error: Store-and-forward server "/opt/rational/clearcase/etc/shipping_server" failed with status 1
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_edi.aix_mw_2012-02-23T05.57.05-05.00_24641882_1 (see store-and-forward log)
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_edi.aix_mw_2012-02-23T05.57.05-05.00_24641882_2 (see store-and-forward log)
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_edi.aix_mw_2012-02-23T05.57.05-05.00_24641882_3 (see store-and-forward log)
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_edi.aix_mw_2012-02-23T05.57.05-05.00_24641882_4 (see store-and-forward log)
+you have mail in /usr/spool/mail/vobadm
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Attempting to forward/deliver generated packets...
+---- NOTE: consult log file (/var/adm/rational/clearcase/log/shipping_server_log) for errors.
+multitool: Error: Store-and-forward server "/opt/rational/clearcase/etc/shipping_server" failed with status 1
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_Enterprise_Services.aix_va_2012-02-23T06.03.09-05.00_7471418_1 (see store-and-forward log)
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Attempting to forward/deliver generated packets...
+---- NOTE: consult log file (/var/adm/rational/clearcase/log/shipping_server_log) for errors.
+multitool: Error: Store-and-forward server "/opt/rational/clearcase/etc/shipping_server" failed with status 1
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_ProPBM.aix_mw_2012-02-23T06.03.39-05.00_42926302_1 (see store-and-forward log)
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_ProPBM.aix_mw_2012-02-23T06.03.39-05.00_42926302_2 (see store-and-forward log)
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_ProPBM.aix_mw_2012-02-23T06.03.39-05.00_42926302_3 (see store-and-forward log)
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+Attempting to forward/deliver generated packets...
+---- NOTE: consult log file (/var/adm/rational/clearcase/log/shipping_server_log) for errors.
+multitool: Error: Store-and-forward server "/opt/rational/clearcase/etc/shipping_server" failed with status 1
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_intranet.aix_mw_2012-02-23T06.05.28-05.00_37814274_1 (see store-and-forward log)
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_intranet.aix_mw_2012-02-23T06.05.28-05.00_37814274_2 (see store-and-forward log)
+
+--------------------------------------------------------------------------------------------------------------------------
+
+multitool: Warning: Did not attempt to forward/deliver packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_enterprise_doc_management.aix_ric_2012-02-23T06.28.22-05.00_53018914_26 due to previous error
+multitool: Warning: Did not attempt to forward/deliver packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_enterprise_doc_management.aix_ric_2012-02-23T06.28.22-05.00_53018914_27 due to previous error
+multitool: Warning: Did not attempt to forward/deliver packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_enterprise_doc_management.aix_ric_2012-02-23T06.28.22-05.00_53018914_28 due to previous error
+multitool: Warning: Did not attempt to forward/deliver packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_enterprise_doc_management.aix_ric_2012-02-23T06.28.22-05.00_53018914_29 due to previous error
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Attempting to forward/deliver generated packets...
+---- NOTE: consult log file (/var/adm/rational/clearcase/log/shipping_server_log) for errors.
+multitool: Error: Store-and-forward server "/opt/rational/clearcase/etc/shipping_server" failed with status 1
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_WAF_Foundations_DotNet_src.aix_va_2012-02-23T06.34.58-05.00_7209054_1 (see store-and-forward log)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Attempting to forward/deliver generated packets...
+---- NOTE: consult log file (/var/adm/rational/clearcase/log/shipping_server_log) for errors.
+multitool: Error: Store-and-forward server "/opt/rational/clearcase/etc/shipping_server" failed with status 1
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_PMB_src.aix_va_2012-02-23T06.37.39-05.00_24641860_1 (see store-and-forward log)
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Attempting to forward/deliver generated packets...
+---- NOTE: consult log file (/var/adm/rational/clearcase/log/shipping_server_log) for errors.
+multitool: Error: Store-and-forward server "/opt/rational/clearcase/etc/shipping_server" failed with status 1
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_Member_src_SSAA.aix_va_2012-02-23T06.38.38-05.00_39846226_1 (see store-and-forward log)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Attempting to forward/deliver generated packets...
+---- NOTE: consult log file (/var/adm/rational/clearcase/log/shipping_server_log) for errors.
+multitool: Error: Store-and-forward server "/opt/rational/clearcase/etc/shipping_server" failed with status 1
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_Member_Legacy_src_SSAA.aix_va_2012-02-23T06.40.58-05.00_6619604_1 (see store-and-forward log)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Attempting to forward/deliver generated packets...
+---- NOTE: consult log file (/var/adm/rational/clearcase/log/shipping_server_log) for errors.
+multitool: Error: Store-and-forward server "/opt/rational/clearcase/etc/shipping_server" failed with status 1
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_WEF.aix_va_2012-02-23T06.41.48-05.00_25166214_1 (see store-and-forward log)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+multitool: Warning: Did not attempt to forward/deliver packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_VBsource.aix_mw_2012-02-23T06.42.38-05.00_50921544_30 due to previous error
+multitool: Warning: Did not attempt to forward/deliver packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_VBsource.aix_mw_2012-02-23T06.42.38-05.00_50921544_31 due to previous error
+multitool: Warning: Did not attempt to forward/deliver packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_VBsource.aix_mw_2012-02-23T06.42.38-05.00_50921544_32 due to previous error
+you have mail in /usr/spool/mail/vobadm
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_MemberWCC_src.aix_va_2012-02-23T07.01.43-05.00_42926308_8 (see store-and-forward log)
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_MemberWCC_src.aix_va_2012-02-23T07.01.43-05.00_42926308_9 (see store-and-forward log)
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_MemberWCC_src.aix_va_2012-02-23T07.01.43-05.00_42926308_10 (see store-and-forward log)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Attempting to forward/deliver generated packets...
+---- NOTE: consult log file (/var/adm/rational/clearcase/log/shipping_server_log) for errors.
+multitool: Error: Store-and-forward server "/opt/rational/clearcase/etc/shipping_server" failed with status 1
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_rmc.aix_va_2012-02-23T07.07.45-05.00_18481320_1 (see store-and-forward log)
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_rmc.aix_va_2012-02-23T07.07.45-05.00_18481320_2 (see store-and-forward log)
+you have mail in /usr/spool/mail/vobadm
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Attempting to forward/deliver generated packets...
+---- NOTE: consult log file (/var/adm/rational/clearcase/log/shipping_server_log) for errors.
+multitool: Error: Store-and-forward server "/opt/rational/clearcase/etc/shipping_server" failed with status 1
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_B2B_Projects_src.aix_ric_2012-02-23T07.22.21-05.00_61997460_1 (see store-and-forward log)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Attempting to forward/deliver generated packets...
+---- NOTE: consult log file (/var/adm/rational/clearcase/log/shipping_server_log) for errors.
+multitool: Error: Store-and-forward server "/opt/rational/clearcase/etc/shipping_server" failed with status 1
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_HealthyCheck_src.aix_ric_2012-02-23T07.28.54-05.00_24641920_1 (see store-and-forward log)
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Attempting to forward/deliver generated packets...
+---- NOTE: consult log file (/var/adm/rational/clearcase/log/shipping_server_log) for errors.
+multitool: Error: Store-and-forward server "/opt/rational/clearcase/etc/shipping_server" failed with status 1
+multitool: Warning: Unable to send packet /vobstorep/shipping/va10puvrcc001/ms_ship/outgoing/repl_eis_test.aix_mw_2012-02-23T07.38.48-05.00_34209852_1 (see store-and-forward log)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+

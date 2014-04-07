@@ -1,0 +1,19 @@
+#########################
+# Created by Shivaji, Rakesh, Abhishek, Somnath
+#########################
+
+my $log="/tmp/view_uuid.txt";
+open (FILE, "< $log") or die "can't open $log: $!";
+my ($view_name, $server, $uuid);
+my $logfile="/opt/view-cleanup.ksh";
+my $processed_system_count=0;
+while (my $line = <FILE>) {
+	chomp $line;
+	($view_name, $server, $uuid) = split(/\|/, $line);
+	open (FILE, ">> $logfile") or die "can't open $logfile: $!"
+        print "cleartool endview –server $view_name\n";
+	print "cleartool rmview -f -uuid $uuid -all\n";
+	print "cleartool unregister -view -uuid $uuid\n";
+        print "cleartool rmtag -view $view_name\n";
+	close FILE;
+}

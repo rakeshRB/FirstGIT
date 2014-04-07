@@ -1,0 +1,63 @@
+1140
+
+Attempting to forward/deliver generated packets...
+---- NOTE: consult log file (/var/adm/rational/clearcase/log/shipping_server_log) for errors.
+multitool: Error: Store-and-forward server "/opt/rational/clearcase/etc/shipping_server" failed with status 1
+multitool: Warning: Unable to send packet /vobstorep/shipping/vaathmr1140/ms_ship/outgoing/repl_SeniorIT_Src.aix_ric_2012-02-23T03.09.42-05.00_31195268_1 (see store-and-forward log)
+multitool: Warning: Unable to send packet /vobstorep/shipping/vaathmr1140/ms_ship/outgoing/repl_SeniorIT_Src.aix_ric_2012-02-23T03.09.42-05.00_31195268_2 (see store-and-forward log)
+-------------------------------------------------------------------------------------------------------------------------
+
+Attempting to forward/deliver generated packets...
+---- NOTE: consult log file (/var/adm/rational/clearcase/log/shipping_server_log) for errors.
+multitool: Error: Store-and-forward server "/opt/rational/clearcase/etc/shipping_server" failed with status 1
+multitool: Warning: Unable to send packet /vobstorep/shipping/vaathmr1140/ms_ship/outgoing/repl_M3P_src.aix_ric_2012-02-23T02.02.39-05.00_20775026_1 (see store-and-forward log)
+multitool: Warning: Unable to send packet /vobstorep/shipping/vaathmr1140/ms_ship/outgoing/repl_M3P_src.aix_ric_2012-02-23T02.02.39-05.00_20775026_2 (see store-and-forward log)
+multitool: Warning: Unable to send packet /vobstorep/shipping/vaathmr1140/ms_ship/outgoing/repl_M3P_src.aix_ric_2012-02-23T02.02.39-05.00_20775026_3 (see store-and-forward log)
+multitool: Warning: Unable to send packet /vobstorep/shipping/vaathmr1140/ms_ship/outgoing/repl_M3P_src.aix_ric_2012-02-23T02.02.39-05.00_20775026_4 (see store-and-forward log)
+------------------------------------------------------------------------------------------------------------------------------
+
+
+multitool: Warning: Did not attempt to forward/deliver packet /vobstorep/shipping/vaathmr1140/ms_ship/outgoing/repl_VAPOC.aix_ric_2012-02-23T01.00.12-05.00_19923162_115 due to previous error
+multitool: Warning: Did not attempt to forward/deliver packet /vobstorep/shipping/vaathmr1140/ms_ship/outgoing/repl_VAPOC.aix_ric_2012-02-23T01.00.12-05.00_19923162_116 due to previous error
+multitool: Warning: Did not attempt to forward/deliver packet /vobstorep/shipping/vaathmr1140/ms_ship/outgoing/repl_VAPOC.aix_ric_2012-02-23T01.00.12-05.00_19923162_117 due to previous error
+----------------------------------------------------------------------------------------------------------------------------------
+
+Attempting to forward/deliver generated packets...
+---- NOTE: consult log file (/var/adm/rational/clearcase/log/shipping_server_log) for errors.
+multitool: Error: Store-and-forward server "/opt/rational/clearcase/etc/shipping_server" failed with status 1
+multitool: Warning: Unable to send packet /vobstorep/shipping/vaathmr1140/ms_ship/outgoing/repl_FIRST_src.aix_ric_2012-02-23T03.44.55-05.00_13172950_1 (see store-and-forward log)
+
+------------------------------------------------------------------------------------------------------------------------------
+
+4180 $ mt mkrepl -export -fship -work /vstore/ms -nc smeccdev02.empirebcbs.com:HMC_IVR_src.empire_nt@/vob/HMC_IVR_src
+multitool: Warning: NOTE: VOB /vob/HMC_IVR_src is linked to the following
+administrative VOBs. You must make sure these VOBs are replicated to the
+new replica's site also:
+  /vob/HMC_IVR
+multitool: Error: Replica "HMC_IVR_src.empire_nt" already exists
+--------------------------------------------------------------------------------------------------------------------------------
+
+Attempting to forward/deliver generated packets...
+---- NOTE: consult log file (/var/adm/rational/clearcase/log/shipping_server_log) for errors.
+multitool: Error: Store-and-forward server "/opt/rational/clearcase/etc/shipping_server" failed with status 1
+  -- Forwarded/delivered packet /vobstorep/shipping/vaathmr1140/ms_ship/outgoing/repl_HMC_IVR_dist.aix_ric_2012-02-23T04.33.48-05.00_31195370_1
+  -- Forwarded/delivered packet /vobstorep/shipping/vaathmr1140/ms_ship/outgoing/repl_HMC_IVR_dist.aix_ric_2012-02-23T04.33.48-05.00_31195370_2
+  -- Forwarded/delivered packet /vobstorep/shipping/vaathmr1140/ms_ship/outgoing/repl_HMC_IVR_dist.aix_ric_2012-02-23T04.33.48-05.00_31195370_3
+multitool: Warning: Unable to send packet /vobstorep/shipping/vaathmr1140/ms_ship/outgoing/repl_HMC_IVR_dist.aix_ric_2012-02-23T04.33.48-05.00_31195370_4 (see store-and-forward log)
+multitool: Warning: Unable to send packet /vobstorep/shipping/vaathmr1140/ms_ship/outgoing/repl_HMC_IVR_dist.aix_ric_2012-02-23T04.33.48-05.00_31195370_5 (see store-and-forward log)
+  -- Forwarded/delivered packet /vobstorep/shipping/vaathmr1140/ms_ship/outgoing/repl_HMC_IVR_dist.aix_ric_2012-02-23T04.33.48-05.00_31195370_6
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Attempting to forward/deliver generated packets...
+---- NOTE: consult log file (/var/adm/rational/clearcase/log/shipping_server_log) for errors.
+multitool: Error: Store-and-forward server "/opt/rational/clearcase/etc/shipping_server" failed with status 1
+multitool: Warning: Unable to send packet /vobstorep/shipping/vaathmr1140/ms_ship/outgoing/repl_HMC_IVR_docs.aix_ric_2012-02-23T05.04.34-05.00_19005452_1 (see store-and-forward log)
+multitool: Warning: Unable to send packet /vobstorep/shipping/vaathmr1140/ms_ship/outgoing/repl_HMC_IVR_docs.aix_ric_2012-02-23T05.04.34-05.00_19005452_2 (see store-and-forward log)
+multitool: Warning: Unable to send packet /vobstorep/shipping/vaathmr1140/ms_ship/outgoing/repl_HMC_IVR_docs.aix_ric_2012-02-23T05.04.34-05.00_19005452_3 (see store-and-forward log)
+  -- Forwarded/delivered packet /vobstorep/shipping/vaathmr1140/ms_ship/outgoing/repl_HMC_IVR_docs.aix_ric_2012-02-23T05.04.34-05.00_19005452_4
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+

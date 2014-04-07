@@ -1,0 +1,32 @@
+1139
+----------------------------------------------------------------------------------------------------------------------------------
+multitool> mkrepl -export -fship -work /vstore/ms -nc smeccdev02.empirebcbs.com:CS90BENEFITS_src.empire_nt@/vob/CS90BENEFITS_src
+multitool: Warning: NOTE: VOB /vob/CS90BENEFITS_src is linked to the following
+administrative VOBs. You must make sure these VOBs are replicated to the
+new replica's site also:
+  /vob/CS90BENEFITS
+multitool: Error: Replica "CS90BENEFITS_src.empire_nt" already exists
+------------------------------------------------------------------------------------------------------------------------------------
+
+Attempting to forward/deliver generated packets...
+  -- Forwarded/delivered packet /vobstorep/shipping/vaathmr1139/ms_ship/outgoing/repl_WCSF.aix_ric_2012-02-23T01.39.43-05.00_30277846_1
+  -- Forwarded/delivered packet /vobstorep/shipping/vaathmr1139/ms_ship/outgoing/repl_WCSF.aix_ric_2012-02-23T01.39.43-05.00_30277846_2
+  -- Forwarded/delivered packet /vobstorep/shipping/vaathmr1139/ms_ship/outgoing/repl_WCSF.aix_ric_2012-02-23T01.39.43-05.00_30277846_3
+  -- Forwarded/delivered packet /vobstorep/shipping/vaathmr1139/ms_ship/outgoing/repl_WCSF.aix_ric_2012-02-23T01.39.43-05.00_30277846_4
+  -- Forwarded/delivered packet /vobstorep/shipping/vaathmr1139/ms_ship/outgoing/repl_WCSF.aix_ric_2012-02-23T01.39.43-05.00_30277846_5
+  -- Forwarded/delivered packet /vobstorep/shipping/vaathmr1139/ms_ship/outgoing/repl_WCSF.aix_ric_2012-02-23T01.39.43-05.00_30277846_6
+  -- Forwarded/delivered packet /vobstorep/shipping/vaathmr1139/ms_ship/outgoing/repl_WCSF.aix_ric_2012-02-23T01.39.43-05.00_30277846_7
+  -- Forwarded/delivered packet /vobstorep/shipping/vaathmr1139/ms_ship/outgoing/repl_WCSF.aix_ric_2012-02-23T01.39.43-05.00_30277846_8
+  -- Forwarded/delivered packet /vobstorep/shipping/vaathmr1139/ms_ship/outgoing/repl_WCSF.aix_ric_2012-02-23T01.39.43-05.00_30277846_9
+  -- Forwarded/delivered packet /vobstorep/shipping/vaathmr1139/ms_ship/outgoing/repl_WCSF.aix_ric_2012-02-23T01.39.43-05.00_30277846_10
+---- NOTE: consult log file (/var/adm/rational/clearcase/log/shipping_server_log) for errors.
+multitool: Error: Store-and-forward server "/opt/rational/clearcase/etc/shipping_server" failed with status 1
+  -- Forwarded/delivered packet /vobstorep/shipping/vaathmr1139/ms_ship/outgoing/repl_WCSF.aix_ric_2012-02-23T01.39.43-05.00_30277846_11
+  -- Forwarded/delivered packet /vobstorep/shipping/vaathmr1139/ms_ship/outgoing/repl_WCSF.aix_ric_2012-02-23T01.39.43-05.00_30277846_12
+  -- Forwarded/delivered packet /vobstorep/shipping/vaathmr1139/ms_ship/outgoing/repl_WCSF.aix_ric_2012-02-23T01.39.43-05.00_30277846_13
+  -- Forwarded/delivered packet /vobstorep/shipping/vaathmr1139/ms_ship/outgoing/repl_WCSF.aix_ric_2012-02-23T01.39.43-05.00_30277846_14
+  -- Forwarded/delivered packet /vobstorep/shipping/vaathmr1139/ms_ship/outgoing/repl_WCSF.aix_ric_2012-02-23T01.39.43-05.00_30277846_15
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
