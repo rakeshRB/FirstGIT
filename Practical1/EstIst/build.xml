@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<project name="IstToEst" default="all" basedir=".">
+
+  <property name="src"   value="src"/>
+  <property name="build" value="build"/>
+  <property name="Output"   value="output"/>
+
+<target name="all" depends="Hari" description="Builds the whole project">
+  <echo>Doing all</echo>
+  <jar destfile="output/Hari_Time.jar" basedir="build">
+    <manifest>
+        <attribute name="Main-Class" value="IstToEst"/>
+    </manifest>
+  </jar>
+</target>
+
+<target name="Hari" description="Builds the main IstToEst project">
+  <echo>Doing Hari</echo>
+  <mkdir dir="${build}"/>
+  <mkdir dir="${Output}"/>
+  <javac srcdir="${src}" destdir="${build}" includeantruntime="false" includes="IstToEst.java"/>
+</target>
+
+</project>

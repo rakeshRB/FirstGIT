@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+
+<project name="Hari" default="CreateJar" basedir=".">
+
+  <property name="src"   value="src"/>
+  <property name="build" value="build"/>
+  <property name="Output"   value="output"/>
+
+<target name="CreateJar" depends="Hari" description="Builds the whole project">
+  <echo>Doing CreateJar</echo>
+  <jar destfile="output/Final.jar" basedir="build">
+    <manifest>
+        <attribute name="Main-Class" value="Hari"/>
+    </manifest>
+  </jar>
+<java jar="output/Final.jar"  fork="true"/>
+</target>
+
+<target name="Hari" depends="AboutControl,ExitControl" description="Builds the main Hari project">
+  <echo>Doing Hari</echo>
+  <copy file="${src}/SamplePiC.jpeg" tofile="${build}/SamplePiC.jpeg"/>
+  <javac srcdir="${src}" destdir="${build}" includeantruntime="false" includes="Hari.java"/>
+</target>
+
+<target name="AboutControl" depends="AboutPopup" description="Builds AboutControl">
+  <echo>Doing AboutControl</echo>
+  <javac srcdir="${src}" destdir="${build}" includeantruntime="false" includes="AboutControl.java"/>
+</target>
+
+<target name="AboutPopup" depends="prepare" description="Builds AboutPopup">
+  <echo>Doing AboutPopup</echo>
+  <javac srcdir="${src}" destdir="${build}" includeantruntime="false" includes="AboutPopup.java"/>
+</target>
+
+<target name="ExitControl" depends="GuiAccTest" description="Builds ExitControl">
+  <echo>Doing ExitControl</echo>
+  <javac srcdir="${src}" destdir="${build}" includeantruntime="false" includes="ExitControl.java"/>
+</target>
+
+<target name="GuiAccTest" description="GUI">
+  <echo>Doing GuiAccTest</echo>
+  <javac srcdir="${src}" destdir="${build}" includeantruntime="false" includes="GuiAccTest.java"/>
+</target>
+
+<target name="Clean" description="Removes previous build">
+  <delete verbose="true">
+    <fileset dir="${build}"/>
+  </delete>
+</target>
+
+<target name="prepare" description="Prepares the pre-requirements">
+  <mkdir dir="${build}"/>
+  <mkdir dir="${Output}"/>
+</target>
+
+
+</project>
