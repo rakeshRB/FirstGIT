@@ -2,3 +2,4 @@ Hi This is my new GIT file from GIT hub.
 added new line
 new line added 
 build testing
+.txt testing
